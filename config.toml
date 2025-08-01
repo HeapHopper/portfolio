@@ -1,0 +1,64 @@
+baseURL = "https://heaphopper.github.io/"
+title = "Welcome"
+theme = "gokarna"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+# Enable syntax highlighting (optional)
+pygmentsStyle = "monokai"
+
+# Parameters specific to Gokarna Theme
+[params]
+  description = "Honestly, its just where I dump my crazy ideas XD"
+  avatarURL = "images/avatar.jpeg"  # Add this later
+  ShowBackToTopButton = true
+  footer = "Tzvi E. Nir"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/heaphopper"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/tzvi-eliezer-nir-abb836170"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 4
+
+
+  [[menu.main]]
+    # Unique identifiers are required for menu entries without a name property,
+    # or for menu entries which re-use a name
+    identifier = "github"
+
+    # Absolute URL to external resource
+    url = "https://github.com/heaphopper"
+    weight = 5
+    
+    # Surround the menu entry (or name) with HTML content, such as Feather
+    # icons: https://feathericons.com
+    pre = "<span data-feather='github'></span>"
+    post = ""
+
