@@ -1,4 +1,4 @@
-baseURL = "https://heaphopper.github.io/"
+baseURL = "https://heaphopper.github.io/portfolio"
 title = "Welcome"
 theme = "gokarna"
 languageCode = "en-us"
