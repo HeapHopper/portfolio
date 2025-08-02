@@ -8,3 +8,5 @@ showTableOfContents: false
 title: "Welcome"
 type: "post"
 ---
+
+I am so excited! I have wanted to start my own blog for a while, but life is demanding. Anyway, here we are!
