@@ -1,4 +1,8 @@
-baseURL = "https://heaphopper.github.io/portfolio"
+baseURL = "https://heaphopper.github.io/"
+relativeURLs = true
+canonicalURLs = true
+
+
 title = "Welcome"
 theme = "gokarna"
 languageCode = "en-us"
