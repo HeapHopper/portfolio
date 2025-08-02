@@ -1,7 +1,4 @@
 baseURL = "https://heaphopper.github.io/"
-relativeURLs = true
-canonicalURLs = true
-
 
 title = "Welcome"
 theme = "gokarna"
