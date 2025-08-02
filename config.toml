@@ -1,4 +1,4 @@
-baseURL = "https://heaphopper.github.io/portfolio/"
+baseURL = "https://heaphopper.github.io/"
 
 title = "Welcome"
 theme = "gokarna"
@@ -11,7 +11,7 @@ pygmentsStyle = "monokai"
 # Parameters specific to Gokarna Theme
 [params]
   description = "Honestly, its just where I dump my crazy ideas XD"
-  avatarURL = "/images/avatar.jpeg"  # Add this later
+  avatarURL = "https://heaphopper.github.io/portfolio/images/avatar.jpeg"
   ShowBackToTopButton = true
   footer = "Tzvi E. Nir"
 
